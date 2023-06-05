@@ -57,7 +57,7 @@
 <p>🚀🚀 HAPPY CODING!!🚀🚀</p>
 <br>
 
-# Get Started with Serverless Application
+# Get Started with Serverless Application (LAMBDA)
 
 1. Make sure to create separate App function
 
