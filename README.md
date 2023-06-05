@@ -87,7 +87,7 @@ export AWS_PROFILE=<aws-profile-name>
  serverless create -t aws-nodejs -n userAuthser
 ```
 
-`NOTE:` You can select multiple template such as docker template, python template etc. Learn More at [Link](https://www.serverless.com/framework/docs)
+`NOTE:` You can select multiple template such as docker template, python template etc. Learn More at this [Link](https://www.serverless.com/framework/docs)
 
 - Make sure to update the .env file, as we are configuring our serverless.yml file using .env file.
 
