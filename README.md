@@ -62,7 +62,7 @@
 1. Make sure to create separate App function
 
 - App.js (runs the Application)
-- Server.js (run the App.js)
+- Server.js (run the App.js with express port)
 
 2. This is to ensure that the app port will be provided by AWS during serverless deploy and express app on local deployment
 
@@ -72,7 +72,7 @@
 - Create default or named AWS_PROFILE by using the following command:
 
 ```sh
-serverless config credentials --provider aws --profile <profile-name> --key <aws-key-with-cloudformation-role> --secret <aws-secret>
+serverless config credentials --provider aws --profile <aws-profile-name> --key <aws-key-with-cloudformation-role> --secret <aws-secret>
 ```
 
 - In terminal, export the named AWS_PROFILE if you have created the AWS_PROFILE by
@@ -84,8 +84,10 @@ export AWS_PROFILE=<aws-profile-name>
 - run the following command to start the serverless setup in project
 
 ```sh
- serverless create -t aws-nodejs -n userAuthser
+ serverless create -t aws-nodejs -n userAuth
 ```
+
+- This will create two additonal files in the project (handler.js, serverless.yml)
 
 `NOTE:` You can select multiple template such as docker template, python template etc. Learn More at this [Link](https://www.serverless.com/framework/docs)
 

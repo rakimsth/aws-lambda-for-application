@@ -20,7 +20,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.15",
+    "serverless": "^3.32.2"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
